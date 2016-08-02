@@ -1,6 +1,8 @@
-package pistoleiro;
+package usa;
 
 import java.util.Random;
+
+import pistoleiro.Pistoleiro;
 
 class Forasteiro implements Pistoleiro{
 	/**

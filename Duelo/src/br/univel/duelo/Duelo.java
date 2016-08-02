@@ -1,8 +1,9 @@
 package br.univel.duelo;
 
 import pistoleiro.Pistoleiro;
-import pistoleiro.PistoleiroFact;
+import pistoleiro.PistoleiroFactory;
 import pistoleiro.TipoPistoleiro;
+import usa.PistoleiroUSFact;
 
 /**
  * Inicia um duelo entre os pistoleiros
@@ -14,7 +15,7 @@ public class Duelo {
 
 	public static void main(String[] args) {
 		// Instância dois pistoleiro para duelar
-		PistoleiroFact factory = new PistoleiroFact();
+		PistoleiroFactory factory = new PistoleiroUSFact();
 		Pistoleiro tripaSeca = factory.create(TipoPistoleiro.DENTRO_DA_LEI, "Tripa seca");
 		Pistoleiro rachaCuca = factory.create(TipoPistoleiro.DENTRO_DA_LEI, "Racha Cuca");
 

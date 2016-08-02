@@ -1,6 +1,8 @@
-package pistoleiro;
+package usa;
 
 import java.util.Random;
+
+import pistoleiro.Pistoleiro;
 
 /**
  * Representa um pistoleiro no nosso joguinho com as ações básicas deste, sendo
